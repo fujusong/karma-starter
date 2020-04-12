@@ -1,17 +1,21 @@
 function checkNum(num) {
+  var flag
   if (typeof num === 'number') {
-    return true
+    flag = true
   } else {
-    return false
+    flag = false
   }
+  return flag
 }
 
 function checkString(str) {
+  var flag
   if (typeof str === 'string') {
-    return true
+    flag = true
   } else {
-    return false
+    flag = false
   }
+  return flag
 }
 
 
